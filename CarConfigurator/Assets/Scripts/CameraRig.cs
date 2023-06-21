@@ -61,9 +61,16 @@ public class CameraRig : MonoBehaviour
 
     void RotateRig()
     {
+        float mouseX = 0; float mouseY = 0;
+        if (Input.GetMouseButton(1))
+        {
+            mouseX = Input.GetAxisRaw("Mouse X") * 5;
+            mouseY = Input.GetAxisRaw("Mouse Y") * 5;
+        }
+
         if (!RestrictHorizontal)
         {
-            camX = (Input.GetAxisRaw("Horizontal") + Input.GetAxisRaw("Right Stick LR")) * cameraSensitivity;
+            camX = (Input.GetAxisRaw("Horizontal") + Input.GetAxisRaw("Right Stick LR") + mouseX) * cameraSensitivity;
             if (camX == 0)
             {
                 rotatingX = false;
@@ -76,7 +83,7 @@ public class CameraRig : MonoBehaviour
 
         if (!RestrictVertical)
         {
-            camY = (Input.GetAxisRaw("Vertical") + Input.GetAxisRaw("Right Stick UD")) * cameraSensitivity;
+            camY = (Input.GetAxisRaw("Vertical") + Input.GetAxisRaw("Right Stick UD") + mouseY) * cameraSensitivity;
             if (camY == 0)
             {
                 rotatingY = false;

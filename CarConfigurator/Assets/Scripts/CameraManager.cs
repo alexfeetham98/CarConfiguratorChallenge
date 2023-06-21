@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField]
+    private Camera[] cams;
+
+    [SerializeField]
+    private Camera activeCam;
+
+
+
     void Start()
     {
-        
+        activeCam = cams[0];
     }
 
-    // Update is called once per frame
     void Update()
     {
         
