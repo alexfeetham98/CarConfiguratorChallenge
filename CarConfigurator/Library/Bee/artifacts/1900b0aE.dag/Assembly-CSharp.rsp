@@ -357,8 +357,9 @@
 "Assets/Scripts/CameraRig.cs"
 "Assets/Scripts/Car Data Scripts/Engine.cs"
 "Assets/Scripts/Car Data Scripts/Wheels.cs"
-"Assets/Scripts/CarData.cs"
+"Assets/Scripts/Car.cs"
 "Assets/Scripts/CarManager.cs"
+"Assets/Scripts/UIManager.cs"
 -langversion:9.0
 
 /deterministic

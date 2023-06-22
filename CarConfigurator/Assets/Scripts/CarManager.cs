@@ -8,18 +8,31 @@ public class CarManager : MonoBehaviour
     private GameObject[] cars;
     
     
-    private CarData currentCar;
-    
-    
+    public Car currentCar;
+    public Engine currentEngine;
+
+    //note for UI - speed, handling, acceleration, braking
+    //functionallity - brakes engine turbo respray gearbox wheels
+
+
     void Start()
     {
-        currentCar = cars[0].GetComponent<CarData>();
-        
+        currentCar = cars[0].GetComponent<Car>();
+        currentEngine = cars[0].GetComponent<Engine>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        //currentCar.GetComponent<Car>().engine.
+    }
 
+    public Car GetCar
+    {
+        get { return currentCar; }
+    }
+
+    public Engine GetEngine
+    {
+        get { return currentEngine; }
     }
 }
