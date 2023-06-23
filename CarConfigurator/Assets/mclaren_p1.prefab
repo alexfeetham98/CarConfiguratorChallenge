@@ -11779,6 +11779,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3676032245683688782}
   - component: {fileID: 2985346289757657463}
+  - component: {fileID: 4710510925968946109}
+  - component: {fileID: 9109109709631597339}
   m_Layer: 0
   m_Name: mclaren_p1
   m_TagString: Untagged
@@ -11814,6 +11816,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: da8d47d4878366946a0b21775682a154, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  engine: {fileID: 4710510925968946109}
+  bodywork: {fileID: 9109109709631597339}
+--- !u!114 &4710510925968946109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4508847631478889102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98d29e9ba7452c34b894fd6584576286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  acceleration: 4
+  engineCost: 0
+  turboPower: 2
+  turboCost: 0
+  gearboxPower: 4
+  gearboxCost: 0
+  engineUpgrades: 0
+  turboUpgrades: 0
+  gearboxUpgrades: 0
+--- !u!114 &9109109709631597339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4508847631478889102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e36fdf0e49235714384331b22ffb15d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4517943800851018140
