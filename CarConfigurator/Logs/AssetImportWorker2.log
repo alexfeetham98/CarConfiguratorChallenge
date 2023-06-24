@@ -1,0 +1,461 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/alexf/Documents/GitHub/CarConfiguratorChallenge/CarConfigurator
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56339
+Successfully changed project path to: C:/Users/alexf/Documents/GitHub/CarConfiguratorChallenge/CarConfigurator
+C:/Users/alexf/Documents/GitHub/CarConfiguratorChallenge/CarConfigurator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30356] Host "[IP] 192.168.0.186 [Port] 0 [Flags] 2 [Guid] 3274761962 [EditorId] 3274761962 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N3627JJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30356] Host "[IP] 192.168.0.186 [Port] 0 [Flags] 2 [Guid] 3274761962 [EditorId] 3274761962 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N3627JJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 84.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/alexf/Documents/GitHub/CarConfiguratorChallenge/CarConfigurator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016449 seconds.
+- Loaded All Assemblies, in  0.846 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.336 seconds
+Domain Reload Profiling: 1179ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (178ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (450ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (440ms)
+			TypeCache.Refresh (439ms)
+				TypeCache.ScanAssembly (327ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (337ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\alexf\Documents\GitHub\CarConfiguratorChallenge\CarConfigurator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\alexf\Documents\GitHub\CarConfiguratorChallenge\CarConfigurator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.006 seconds
+Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 1676ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (701ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (399ms)
+			TypeCache.Refresh (377ms)
+				TypeCache.ScanAssembly (360ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (676ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (479ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (329ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 9.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.7 KB). Loaded Objects now: 3569.
+Memory consumption went from 130.3 MB to 130.2 MB.
+Total: 4.642600 ms (FindLiveObjects: 0.413400 ms CreateObjectMapping: 0.138800 ms MarkObjects: 3.931100 ms  DeleteObjects: 0.157600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 387941.196799 seconds.
+  path: Assets/ac-praga-r1
+  artifactKey: Guid(701b90a652135e640988908b77a10b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1 using Guid(701b90a652135e640988908b77a10b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ad185f58cd547e147ba27c6d39b561') in 0.003539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.148446 seconds.
+  path: Assets/ac-praga-r1/source
+  artifactKey: Guid(e08390d5d5be42849abbda5fe6395691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/source using Guid(e08390d5d5be42849abbda5fe6395691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71349e909fa995d36e12ecfd6032faac') in 0.000591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044727 seconds.
+  path: Assets/ac-praga-r1/source/praga r1.fbx
+  artifactKey: Guid(92a7eda4f8085ac469d519951d186c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/source/praga r1.fbx using Guid(92a7eda4f8085ac469d519951d186c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc760981d2ff5fee054fc92d3e794bc') in 1.206128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1188
+========================================================================
+Received Import Request.
+  Time since last request: 185.838772 seconds.
+  path: Assets/Materials/Lotus
+  artifactKey: Guid(51d121c4a7feece4a95f9c00e0849a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Lotus using Guid(51d121c4a7feece4a95f9c00e0849a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d46d0fadbb2ecad4c83e54e45a3a27f') in 0.002333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.789440 seconds.
+  path: Assets/Materials/Lotus/lotus_primary.mat
+  artifactKey: Guid(cedef4a01a85ae143b5459dc8d780e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Lotus/lotus_primary.mat using Guid(cedef4a01a85ae143b5459dc8d780e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643573d073747f00710755550f714739') in 0.016591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 50.734653 seconds.
+  path: Assets/Materials/Lotus/lotus_secondary.mat
+  artifactKey: Guid(99b6e91c7a2503540a0743e731a24c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Lotus/lotus_secondary.mat using Guid(99b6e91c7a2503540a0743e731a24c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81864a9663cd65fde2ef71f96f0903ed') in 0.020024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 128.892078 seconds.
+  path: Assets/ac-lotus-evora-s
+  artifactKey: Guid(672e600cf2a485b4bbea7240d1b6beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s using Guid(672e600cf2a485b4bbea7240d1b6beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8983d6872e6aa68b3074ea591744d8') in 0.000640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.337680 seconds.
+  path: Assets/ac-lotus-evora-s/source
+  artifactKey: Guid(455b2eafa76b28a43a906adef757d51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/source using Guid(455b2eafa76b28a43a906adef757d51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3a92bdb1e635790321ccc8049fe5b2') in 0.000594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.054738 seconds.
+  path: Assets/ac-lotus-evora-s/source/lotus_evora_s_c4d.zip
+  artifactKey: Guid(64572d68da5770942b7448a43f76db96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/source/lotus_evora_s_c4d.zip using Guid(64572d68da5770942b7448a43f76db96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da2ab93cd5d9401d3d4baa61aade8a1') in 0.001076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 32.601546 seconds.
+  path: Assets/ac-lotus-evora-s/source/lotus_evora_s_c4d
+  artifactKey: Guid(fb349c1180b8a164db4b8123f38aeb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/source/lotus_evora_s_c4d using Guid(fb349c1180b8a164db4b8123f38aeb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485ec2c2a7e05117cd7bc9d304e0fdc6') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050873 seconds.
+  path: Assets/ac-lotus-evora-s/source/lotus_evora_s_c4d/lotus_evora_s.c4d.fbx
+  artifactKey: Guid(245501f7ade337a4dbdaf9acb17ca6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/source/lotus_evora_s_c4d/lotus_evora_s.c4d.fbx using Guid(245501f7ade337a4dbdaf9acb17ca6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5956a2cd3fd8ee9d118391b82b16f451') in 1.720895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1267
+========================================================================
+Received Import Request.
+  Time since last request: 7.934018 seconds.
+  path: Assets/ac-maserati-quattroporte
+  artifactKey: Guid(f6575c97b590834498de3e34d2283db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-maserati-quattroporte using Guid(f6575c97b590834498de3e34d2283db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06fbea021bbc0768f71b1134b5a287f') in 0.001647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.620223 seconds.
+  path: Assets/ac-maserati-quattroporte/source
+  artifactKey: Guid(0790fe3ef3b5e3845a119acb4ab79273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-maserati-quattroporte/source using Guid(0790fe3ef3b5e3845a119acb4ab79273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e495f9a15e09779ab583bd244a9c4a') in 0.000585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.506136 seconds.
+  path: Assets/ac-maserati-quattroporte/source/maserati_quattroporte.fbx
+  artifactKey: Guid(07e39e56680be244c86134ee19db1384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-maserati-quattroporte/source/maserati_quattroporte.fbx using Guid(07e39e56680be244c86134ee19db1384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cb652b4dde4c4d421598bceae691d3') in 2.391406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1670
+========================================================================
+Received Import Request.
+  Time since last request: 249.216312 seconds.
+  path: Assets/Materials/McLaren/cuciture.mat
+  artifactKey: Guid(d2f7315ff68413044938fb687830ce11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/McLaren/cuciture.mat using Guid(d2f7315ff68413044938fb687830ce11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b044c2ee6aaaec79cf3486c338c84f') in 0.026398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.031564 seconds.
+  path: Assets/Materials/McLaren/interior_carbon.mat
+  artifactKey: Guid(67f18f1df4ec0c942ba3dd809b75eb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/McLaren/interior_carbon.mat using Guid(67f18f1df4ec0c942ba3dd809b75eb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3598c68d51bcda9d0f8b2aa4f0c336') in 0.016703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.204982 seconds.
+  path: Assets/mclaren_p1.prefab
+  artifactKey: Guid(eb7ca8ca48ab45f419edc79cdef7a67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mclaren_p1.prefab using Guid(eb7ca8ca48ab45f419edc79cdef7a67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5d6e955d76e55daec951c320eb2382') in 0.097927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2406
+========================================================================
+Received Import Request.
+  Time since last request: 2.922758 seconds.
+  path: Assets/ac-praga-r1/textures
+  artifactKey: Guid(8550d681e61e17748bbaceafe61b4d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures using Guid(8550d681e61e17748bbaceafe61b4d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99d40a726bf7d7b101c1aa748d720eb') in 0.001714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.064995 seconds.
+  path: Assets/ac-praga-r1/textures/alcnt.jpeg
+  artifactKey: Guid(6584a542e3ac9ed45aaa5607a4575d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/alcnt.jpeg using Guid(6584a542e3ac9ed45aaa5607a4575d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdd1f89e621226a2c20dbdbbdb42a81') in 0.028131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007687 seconds.
+  path: Assets/ac-praga-r1/textures/Cavo_torto_NM.png
+  artifactKey: Guid(3828fd470e302b94697e114ffe2d4f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/Cavo_torto_NM.png using Guid(3828fd470e302b94697e114ffe2d4f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cc1e87c4d8684f173cfd5a3f905977') in 0.027458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ac-praga-r1/textures/lights.jpeg
+  artifactKey: Guid(af4b84731b9b42e46973862ecd25e053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/lights.jpeg using Guid(af4b84731b9b42e46973862ecd25e053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5bc94354f873a2d4a6415b3de46063') in 0.026753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ac-praga-r1/textures/fuel_pipe.jpeg
+  artifactKey: Guid(144c43b03fa78f04fbb2743a0cae759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/fuel_pipe.jpeg using Guid(144c43b03fa78f04fbb2743a0cae759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dfde94773a1aaee0633ecb594eba7d') in 0.024846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ac-praga-r1/textures/Tyre_base_NM.jpeg
+  artifactKey: Guid(a3771a4dcd145694da934070c2cc195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/Tyre_base_NM.jpeg using Guid(a3771a4dcd145694da934070c2cc195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c97fe57816c25b72bf21f772134afa7') in 0.020749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ac-praga-r1/textures/LCD.jpeg
+  artifactKey: Guid(b5bd3af6321352b46a94e9b24b42df76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/LCD.jpeg using Guid(b5bd3af6321352b46a94e9b24b42df76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04421149bf717b81a4f7cb99b91d63b1') in 0.021763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ac-praga-r1/textures/stickers_NM.jpeg
+  artifactKey: Guid(095a9e3e29d535045971ecaa9dbf53a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/stickers_NM.jpeg using Guid(095a9e3e29d535045971ecaa9dbf53a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ddd99e62d62fe16ac04d4bee8d34d4') in 0.025830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ac-praga-r1/textures/lights_NM.jpeg
+  artifactKey: Guid(b0f151e1dc59da44ba924d7c29be9253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/lights_NM.jpeg using Guid(b0f151e1dc59da44ba924d7c29be9253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505538f0799d124c79a95249dddae50f') in 0.022497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ac-praga-r1/textures/INT_Sparco_LOGO.jpeg
+  artifactKey: Guid(d13b4de512147e248b532b8e317b243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/INT_Sparco_LOGO.jpeg using Guid(d13b4de512147e248b532b8e317b243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253556cb0bd58912aee3847e569c05cb') in 0.024895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ac-praga-r1/textures/glass.jpeg
+  artifactKey: Guid(250457881c6c98c42bfd48183b728d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/glass.jpeg using Guid(250457881c6c98c42bfd48183b728d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1394185dd76b0e0a801368436d3946') in 0.019701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ac-praga-r1/textures/RIm_metal_detail.jpeg
+  artifactKey: Guid(37477a138ac5b844bb515d68698011a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/RIm_metal_detail.jpeg using Guid(37477a138ac5b844bb515d68698011a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9269ea8c0a44133354e5003e8e9d0c3b') in 0.019344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ac-praga-r1/textures/PRAG_STEERINGWHEEL_DIFFUSE.jpeg
+  artifactKey: Guid(a70dbe367798484489e913c1bd055a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/PRAG_STEERINGWHEEL_DIFFUSE.jpeg using Guid(a70dbe367798484489e913c1bd055a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a27f338f484ce1672d9e3915390698c') in 0.023509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ac-praga-r1/textures/fuel_pipe_NM.jpeg
+  artifactKey: Guid(17938c1ff07ea7640a2c2d2cb0f30768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/fuel_pipe_NM.jpeg using Guid(17938c1ff07ea7640a2c2d2cb0f30768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a68a2e7ad069b416557be1b87edff3') in 0.019302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ac-praga-r1/textures/metal_detail_rearwing.jpeg
+  artifactKey: Guid(bacd08e77989b14499df5d717a5763e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/metal_detail_rearwing.jpeg using Guid(bacd08e77989b14499df5d717a5763e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b139cb9b28825261c2af36c1187c72c') in 0.016959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ac-praga-r1/textures/praga_misc.jpeg
+  artifactKey: Guid(75f8dff5e0129204db9f27c713b50e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/praga_misc.jpeg using Guid(75f8dff5e0129204db9f27c713b50e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a76e5b5ee9761c56ad364265e1efe3') in 0.019068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ac-praga-r1/textures/Cavo_torto.png
+  artifactKey: Guid(bed2715a0714f954aaf94406729446a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/Cavo_torto.png using Guid(bed2715a0714f954aaf94406729446a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3441b8b5f7f088749a06a2803f11e28') in 0.019998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ac-praga-r1/textures/DISK.jpeg
+  artifactKey: Guid(38b238cdc9ed92045bd38444391cc519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-praga-r1/textures/DISK.jpeg using Guid(38b238cdc9ed92045bd38444391cc519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3acccbef3999973568af5215f9669b') in 0.017454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

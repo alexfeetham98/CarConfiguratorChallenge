@@ -11839,9 +11839,12 @@ MonoBehaviour:
   turboCost: 0
   gearboxPower: 4
   gearboxCost: 0
+  brakesPower: 0
+  brakesCost: 0
   engineUpgrades: 0
   turboUpgrades: 0
   gearboxUpgrades: 0
+  brakesUpgrades: 0
 --- !u!114 &9109109709631597339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11854,6 +11857,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e36fdf0e49235714384331b22ffb15d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  paintjob: 0
+  primary: {fileID: 2100000, guid: a09f7a778ee37f144a80f51d8d6406a5, type: 2}
+  secondary: {fileID: 0}
+  interiorPrimary: {fileID: 2100000, guid: 1f914f4e426034146af1b59ee1b858f0, type: 2}
+  interiorSecondary: {fileID: 0}
+  seatsPrimary: {fileID: 2100000, guid: 85cb1a6babd76b84396bb56905987b80, type: 2}
+  seatsSecondary: {fileID: 0}
+  stockPrimary:
+    serializedVersion: 2
+    rgba: 4278217727
+  stockSecondary:
+    serializedVersion: 2
+    rgba: 4278190080
+  stockInteriorPrimary:
+    serializedVersion: 2
+    rgba: 4278217727
+  stockInteriorSecondary:
+    serializedVersion: 2
+    rgba: 4278190080
+  stockSeatsPrimary:
+    serializedVersion: 2
+    rgba: 4278217727
+  stockSeatsSecondary:
+    serializedVersion: 2
+    rgba: 4278190080
 --- !u!1 &4517943800851018140
 GameObject:
   m_ObjectHideFlags: 0

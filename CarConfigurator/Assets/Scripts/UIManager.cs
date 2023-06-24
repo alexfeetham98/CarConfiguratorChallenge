@@ -30,7 +30,6 @@ public class UIManager : MonoBehaviour
     {
         HideAll();
         MainPanel();
-        
     }
 
     
@@ -117,6 +116,9 @@ public class UIManager : MonoBehaviour
             case 4:
                 carManager.currentEngine.brakesUpgrades = Engine.BrakesUpgrades.Stock;
                 break;
+            case 5:
+                carManager.currentBodywork.paintjob = Bodywork.Paintjob.Stock;
+                break;
         }
     }
 
@@ -135,6 +137,9 @@ public class UIManager : MonoBehaviour
                 break;
             case 4:
                 carManager.currentEngine.brakesUpgrades = Engine.BrakesUpgrades.Street;
+                break;
+            case 5:
+                carManager.currentBodywork.paintjob = Bodywork.Paintjob.Red;
                 break;
         }
     }
@@ -155,6 +160,9 @@ public class UIManager : MonoBehaviour
             case 4:
                 carManager.currentEngine.brakesUpgrades = Engine.BrakesUpgrades.Sport;
                 break;
+            case 5:
+                carManager.currentBodywork.paintjob = Bodywork.Paintjob.Blue;
+                break;
         }
     }
 
@@ -173,6 +181,9 @@ public class UIManager : MonoBehaviour
                 break;
             case 4:
                 carManager.currentEngine.brakesUpgrades = Engine.BrakesUpgrades.Race;
+                break;
+            case 5:
+                carManager.currentBodywork.paintjob = Bodywork.Paintjob.Orange;
                 break;
         }
     }

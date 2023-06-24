@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Engine : MonoBehaviour
 {
-    
     [SerializeField][Range(1, 10)]
     private int speed;
     [SerializeField][Range(1, 10)]

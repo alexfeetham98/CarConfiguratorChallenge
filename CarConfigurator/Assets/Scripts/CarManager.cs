@@ -10,20 +10,22 @@ public class CarManager : MonoBehaviour
     
     public Car currentCar;
     public Engine currentEngine;
+    public Bodywork currentBodywork;
 
     //note for UI - speed, handling, acceleration, braking
-    //functionallity - brakes engine turbo respray gearbox wheels
+    //functionallity - brakes engine turbo respray gearbox 
 
 
     void Start()
     {
         currentCar = cars[0].GetComponent<Car>();
         currentEngine = cars[0].GetComponent<Engine>();
+        currentBodywork = cars[0].GetComponent<Bodywork>();
     }
 
     void Update()
     {
-        //currentCar.GetComponent<Car>().engine.
+        
     }
 
     public Car GetCar
@@ -34,5 +36,10 @@ public class CarManager : MonoBehaviour
     public Engine GetEngine
     {
         get { return currentEngine; }
+    }
+
+    public Bodywork GetBodyWork
+    {
+        get { return currentBodywork; }
     }
 }
